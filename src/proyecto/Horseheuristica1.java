@@ -14,13 +14,6 @@ public class Horseheuristica1 implements HeuristicFunction {
     private static final int g1 = 1;
     private static final int g2 = 2;
     
-//    public static double h1(Object state) {
-//        ModificatedBoard board = (ModificatedBoard) state;
-//        int n1 = board.getRow();
-//        int n2 = board.getColumn();
-//        return Math.abs(n1 - g1) + Math.abs(n2 + g2);
-//    }
-
     @Override
     public double h(Object o) {
         ModificatedBoard board = (ModificatedBoard) o;

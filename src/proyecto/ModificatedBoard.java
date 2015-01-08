@@ -136,8 +136,7 @@ public class ModificatedBoard {
         
         if(casillaprohibida){ // restrinción de la casilla del problema
             resp=false;
-            System.out.println("Mueve falso " + a.toString());
-        }
+            }
         
         return resp;
     }
